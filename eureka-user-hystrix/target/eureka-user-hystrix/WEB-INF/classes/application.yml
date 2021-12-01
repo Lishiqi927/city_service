@@ -1,0 +1,11 @@
+server:
+  port: 8030
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-rul:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  application:
+    name: eureka-user-hystrix
